@@ -67,7 +67,7 @@ button:hover {
 }
 
 /* Heading */
-.section-title {
+.section__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -95,7 +95,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.section__title {
+.main-top-section__title {
   display: block;
   margin: 0 0 20px;
 }
