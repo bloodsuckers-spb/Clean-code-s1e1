@@ -21,14 +21,14 @@ button{
   font-family: Lato, sans-serif;
 }
 
-.header {
+.page__header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.header-image {
+.header__image {
   width: 100%;
 }
 
