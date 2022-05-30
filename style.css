@@ -118,12 +118,11 @@ li > * {
   vertical-align: middle;
 }
 
-/*li > input[type="checkbox"]*/
 .list-item__checkbox {
   margin: 0 10px;
 }
 
-li > label {
+.list-item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -145,7 +144,8 @@ li > input[type="text"] {
 }
 
 /* Completed */
-.section__tasks_complete label {
+/*.section__tasks_complete label */
+.section__tasks_complete .list-item__label {
   text-decoration: line-through;
   color: #888;
 }
