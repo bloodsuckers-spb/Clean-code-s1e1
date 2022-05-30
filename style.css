@@ -36,7 +36,7 @@ button{
   font-family: fantasy, cursive;
 }
 
-.main {
+.page__main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
