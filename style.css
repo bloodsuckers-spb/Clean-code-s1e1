@@ -95,7 +95,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.main-top-section__title {
+.add-item__title {
   display: block;
   margin: 0 0 20px;
 }
