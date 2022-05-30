@@ -105,7 +105,7 @@ input#new-task {
 }
 
 /* Task list */
-li {
+.list-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -133,13 +133,13 @@ li > input[type="text"] {
   width: 226px;
 }
 
-button.delete img {
+.delete__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.delete__img:hover {
   transform: rotateZ(0);
 }
 
