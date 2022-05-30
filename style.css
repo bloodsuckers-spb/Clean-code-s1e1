@@ -116,7 +116,10 @@ button{
   align-items: center;
 }
 
-li > * {
+.list-item__checkbox,
+.list-item__label,
+.list-item__task,
+.list-item__btn {
   vertical-align: middle;
 }
 
@@ -131,7 +134,7 @@ li > * {
   width: 226px;
 }
 
-li > input[type="text"] {
+.list-item__task {
   width: 226px;
 }
 
@@ -146,23 +149,22 @@ li > input[type="text"] {
 }
 
 /* Completed */
-/*.section__tasks_complete label */
 .section__tasks_complete .list-item__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.list-item__task {
   display: none;
 }
 
-ul li.editMode input[type=text] {
+.edit-mode .list-item__task {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+.edit-mode .list-item__label {
   display: none;
 }
 
